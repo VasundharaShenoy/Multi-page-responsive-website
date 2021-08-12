@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="..\static\css\timer.css"></head>
+    <body style="background-image: url('../static/images/blue.jpg');">
+    <header>
+         <div class="container container-nav">
+            <div class="site-title">
+               <h1 class="lol">SharedThoughts</h1>
+               <p class="subtitle">The world of blog redefined</p>
+            </div>
+            <nav>
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="books.html">Books</a></li>
+                  <li><a href="movies.html">Movies</a></li>
+                  <li><a href="quotes.html">Quotes</a></li>
+                  <li><a href="" class="current-page">Timer</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+     
+   <center> <div class='wrapper'>
+        <div class='align-wrap'>
+          <div class='align'>
+            <div class='group'>
+              <div class='left'>
+                <h3 class='break'><b>break</b></h3>
+                <h2><a class="new" id='breakMinus' href="#">-</a><span id='breakMinutes'></span><a class="new" id='breakPlus' href="#">+</a></h2>
+              </div>
+              <div class='right'>
+                <h3 class='session'><b>session</b></h3>
+                <h2><a class="new" id='sessionMinus' href="#">-</a><span id='sessionMinutes'></span><a class="new" id='sessionPlus' href="#">+</a></h2>
+              </div>
+            </div><br><br>
+
+            <div class='clock'><br>
+                <center><h2><b>Your break will begin once your session is complete.</h2></b></center>
+              <p class='timer' id='timer'></p>
+              <button class='button' id='start'>start</button><br><br><br>
+              <button class='button left' id='pause'>pause</button>
+              <button class='button right' id='reset'>reset</button>
+              <button class='button' id='startBreak'>start</button>
+              <button class='button left' id='pauseBreak'>pause</button>
+              <button class='button right' id='resetBreak'>reset</button>
+            </div>
+          </div>
+        </div>
+      </div></center>
+       
+</body>
+<footer><script src="..\static\js\timer.js">
+</script></footer>
+</html>
